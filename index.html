@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My #12 Gama Experience Hacker Project</title>
+    <link href='css/style.css' rel='stylesheet'>
+    <!--<link rel="stylesheet" href="css/style.css"> -->
+  </head>
+  <body>
+  <section> 
+    <header class="cabecalhoPrincipal">
+		<div class="container">
+			<h1 class="cabecalhoPrincipal-titulo">
+				<a>My #12 Gama Experience Hacker Project</a>
+            </h1>
+            <h2 class="subtitulo">
+                <p>This is Ana Camila's first hacker project for #12 Gama Experience</p>
+            </h2>
+		</div>
+    </header>
+  </section>
+ 
+  <section>
+        <div class="image-container">
+                <div class="image"><img src="images/tech.png"></div>
+            <!-- <img src="images/tech.png" alt="picture description" width="30%"> -->
+        </div>
+  </section>
+
+  <section>
+    <div class="texto">
+        <h2>Gama Experience</h2>
+        <p>O maior programa de seleção, capacitação e conexão de talentos a empresas do mercado digital
+            Funciona como um processo seletivo de trainees para trabalhar em startups, e-commerces, agências digitais e empresas de tecnologia.Durante 5 semanas 100 profissionais são selecionados para uma imersão completa no mercado digital, e ao final do programa, os talentos que "sobrevivem" participam de uma Feira de Contratação onde são entrevistados e já podem ser contratados por diversas empresas.</p>
+    </div>
+  </section>
+
+  <section>
+    <form class="form" onsubmit="enviarDados(event)">
+        <h1>Preencha o formulário</h1>
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="form-control" required/>        
+            </div>    
+            
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="form-control" required/>
+            </div>
+            
+            <div class="form-group">
+                <label for="empresa">Empresa</label>
+                <input id="empresa" type="text" class="form-control" required />
+            </div>
+            
+            <button class="formSubmit" type="submit">Enviar</button>
+        </form>
+  </section> 
+
+
+  <script src="js/FormController.js"></script>
+
+  </body>
+</html>

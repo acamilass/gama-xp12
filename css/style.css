@@ -1,0 +1,78 @@
+* {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;	
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.cabecalhoPrincipal {
+	background-color: #87CEFA;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 20px 0; 
+}
+
+.cabecalhoPrincipal-titulo {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.subtitulo {
+	font-size: medium;
+	margin-bottom: 20px;
+}
+
+.image-container{
+	background-color: #B0C4DE;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-around;	
+}
+
+.texto {
+	background-color: #4169E1;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 30px 0;
+}
+
+.textoParag {
+	margin: 10px 10px;
+}
+
+.form {
+	background-color: #1E90FF;	
+	text-align: center;
+	color: #FFFFFF;
+	padding: 50px 0;
+	font-size: 20px;
+}
+
+.form-group {
+	margin: 4px 2px;
+	font-size: 18px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px; 
+}
+
+.formSubmit{
+	background-color: #191970;
+	border: none;
+	border-radius: 5px;
+    color: white;
+    padding: 16px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.form-control {
+	border-radius: 5px;
+	width: 50%;
+}
+
+
